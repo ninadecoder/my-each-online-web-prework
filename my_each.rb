@@ -7,4 +7,5 @@ def my_each(arr)
     yield(i)
     count += 1 
   end
+  return arr
 end
